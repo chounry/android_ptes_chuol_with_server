@@ -4,7 +4,7 @@
 An android app that show and post the information of the **HOUSE** or **ROOM** for **SELL** or **RENT**.
 
 ### Installing
-**I . Server**
+**I . Server (Database-choul)**
  1. create a new **.env** file from the existing **.env.example**
  2. Create a **database** on the your WAMP or whatever you use 
  3. config the 
@@ -24,7 +24,7 @@ An android app that show and post the information of the **HOUSE** or **ROOM** f
 	```
 
 
-**II . Android**
+**II . Android (chuol-android)**
  1. Open the android project
  2. Change the ip address in **app/src/main/java/com/group6/choul/shares/MyConfig.java** to the ip address that used to run command **php artisan serve**
 
