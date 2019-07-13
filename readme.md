@@ -11,7 +11,7 @@ An android app that show and post the information of the **HOUSE** or **ROOM** f
 	1. DB_DATABASE
 	2. DB_USERNAME
 	3. DB_PASSWORD
- 4. Run these commands in the project **root** folder
+ 4. Run these commands in the **root** project folder
 	```
 	php artisan key:generate
 	php artisan migrate
