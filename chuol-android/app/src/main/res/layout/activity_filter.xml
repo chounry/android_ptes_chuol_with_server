@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.google.android.material.appbar.AppBarLayout
+        app:elevation="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="20dp">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="15dp"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp">
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_SR"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Siem Reap" />
+                    <CheckBox android:id="@+id/checkbox_pp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Phnom Penh" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_btmc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:text="Banteay Meanchey" />
+
+                    <CheckBox android:id="@+id/checkbox_odor_meanchey"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:text="Odor Meanchey" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_kpchh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Kampong Chhnang" />
+                    <CheckBox android:id="@+id/checkbox_btm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Banteay Meanchey" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_kampong_t"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Kampong Thom" />
+
+                    <CheckBox android:id="@+id/checkbox_kpch"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Kampong Charm" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_st"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:text="Stung Treng" />
+                    <CheckBox android:id="@+id/checkbox_svay_r"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.33"
+                        android:text="Svay Rieng" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_ps"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Pursat" />
+                    <CheckBox android:id="@+id/checkbox_tk"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Takeo" />
+                    <CheckBox android:id="@+id/checkbox_kampot"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Kampot" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+
+                    <CheckBox android:id="@+id/checkbox_mondulkiri"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Mondulkiri" />
+                    <CheckBox android:id="@+id/checkbox_pl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Pailin" />
+                    <CheckBox android:id="@+id/checkbox_kandal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Kandal" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_kep"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Kep" />
+                    <CheckBox android:id="@+id/checkbox_kratie"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Kratie" />
+                    <CheckBox android:id="@+id/checkbox_kk"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:text="Koh Kong" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+
+                    <CheckBox android:id="@+id/checkbox_ratanakiri"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Rattanakiri" />
+                    <CheckBox android:id="@+id/checkbox_btb"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Battambang" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_kps"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Kampong Speu" />
+                    <CheckBox android:id="@+id/checkbox_sihanoukville"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Sihanouk ville" />
+                </TableRow>
+                <TableRow
+                    android:layout_marginBottom="10dp">
+                    <CheckBox android:id="@+id/checkbox_pv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Preah Vihear" />
+                    <CheckBox android:id="@+id/checkbox_tbk"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.5"
+                        android:text="Tbong Khmum" />
+                </TableRow>
+            </TableLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="House Type"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/house_type_rcv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </androidx.recyclerview.widget.RecyclerView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Category"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="30dp">
+                <TableRow>
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <RadioButton
+                            android:id="@+id/radio_for_sale"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="For Sale"
+                            android:checked="true" />
+                        <RadioButton
+                            android:id="@+id/radio_for_rent"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="For Rent" />
+                    </RadioGroup>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:hint="From">
+                    <EditText
+                        android:id="@+id/from_price_et"
+                        android:inputType="numberDecimal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="0.4"
+                    android:layout_height="wrap_content"
+                    android:hint="To">
+                    <EditText
+                        android:id="@+id/to_price_et"
+                        android:inputType="numberDecimal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.1"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_dollar_img"/>
+
+            </LinearLayout>
+
+            <!--<Button-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="150dp"-->
+                <!--android:layout_marginBottom="25dp"-->
+                <!--android:background="#48C0E8"-->
+                <!--android:text="filter"-->
+                <!--android:textColor="#FFFF"-->
+                <!--android:textSize="15sp" />-->
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textColor="#0E0D0D"
+        android:layout_marginVertical="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="35dp">
+                <LinearLayout
+                    android:id="@+id/linear_personal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/borderline">
+
+                    <TextView
+                        android:id="@+id/txt_personalInfo"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:text="Personal information"
+                        android:textSize="16sp" />
+
+                    <ImageView
+                        android:id="@+id/img_personalInfo"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_account"
+
+                        android:background="#00FFFFFF"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:background="@drawable/borderline">
+
+                    <TextView
+                        android:id="@+id/txt_history"
+                        android:layout_width="0dp"
+                        android:layout_weight="0.7"
+                        android:layout_height="wrap_content"
+                        android:text="Post History"
+                        android:textSize="16sp" />
+
+
+                    <ImageButton
+                        android:id="@+id/img_history"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_edit"
+                        android:background="#00FFFFFF"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_signout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/borderline">
+
+                    <TextView
+                        android:layout_width="197dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_weight="0.7"
+                        android:text="Sign out"
+                        android:textSize="16sp" />
+
+                    <ImageButton
+                        android:id="@+id/img_signout"
+                        android:layout_width="25dp"
+                        android:layout_height="wrap_content"
+                        android:background="#00FFFFFF"
+                        android:src="@drawable/ic_signout" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Choul"
+                    android:textStyle="bold"
+                    android:background="@drawable/borderline"
+                    android:textSize="20sp"
+                    android:layout_marginTop="40dp" />
+
+                <TextView
+                    android:id="@+id/aboutUs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="About us"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="4dp"/>
+
+                <TextView
+                    android:id="@+id/termofUse"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Term of  use and conditions"
+                    android:textSize="16sp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="4dp"/>
+            </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:padding="20dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/backgroundpopup"
+    android:gravity="center">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:text="Choose Your Category"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_house"
+            android:layout_width="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_height="40dp"
+            android:paddingHorizontal="35dp"
+            android:paddingVertical="10dp"
+            android:gravity="center"
+            android:text="House"
+            android:textSize="14dp"
+            android:textColor="#FFFF"
+            android:background="@drawable/buttonstyle"
+            />
+        <Button
+            android:id="@+id/btn_room"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingHorizontal="35dp"
+            android:paddingVertical="10dp"
+            android:gravity="center"
+            android:text="Room"
+            android:background="@drawable/buttonstyle"
+            android:textSize="14sp"
+            android:textColor="#FFFF"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

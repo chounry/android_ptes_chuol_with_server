@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:gravity="right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <com.github.library.bubbleview.BubbleTextView
+            android:id="@+id/msgTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello erwerwerwerwerwerwer34534534"
+            android:padding="10dp"
+            android:textColor="#FFF"
+
+            app:arrowWidth="10dp"
+            app:angle="8dp"
+            app:arrowHeight="10dp"
+            app:arrowPosition="10dp"
+            app:arrowLocation="right"
+            app:arrowCenter="true"
+            app:bubbleColor="@color/colorPrimary"/>
+    </LinearLayout>
+</LinearLayout>

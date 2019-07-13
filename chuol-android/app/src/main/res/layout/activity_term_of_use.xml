@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Term of Use"
+        android:textSize="30sp"
+        />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Additional terms: In addition to the Master Terms, your use of any Services may also be subject to specific terms applicable to a particular Service (“Additional Terms”). If there is any conflict between the Additional Terms and the Master Terms, then the Additional Terms apply in relation to the relevant Service.
+
+Collectively, the Terms: The Master Terms, together with any Additional Terms, form a binding legal agreement between you and Creative Commons in relation to your use of the Services. Collectively, this legal agreement is referred to below as the “Terms.”
+
+Human-readable summary of Sec 1: These terms, together with any special terms for particular websites, create a contract between you and Creative Commons. The contract governs your use of all websites operated by Creative Commons, unless a particular website indicates otherwise. These human-readable summaries of each section are not part of the contract, but are intended to help you understand its terms."/>
+
+</LinearLayout>

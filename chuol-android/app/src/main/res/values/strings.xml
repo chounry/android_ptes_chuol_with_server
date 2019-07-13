@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">ជួល</string>
+    <string name="opened_menu">Opened</string>
+    <string name="closed_menu">Closed</string>
+
+
+    <string name="house_type_promt">Choose House Type</string>
+    <string-array name="house_type">
+        <item>Bungalow</item>
+        <item>Castle</item>
+        <item>Caravan</item>
+    </string-array>
+
+    <string name="city_promt">Choose City</string>
+    <string-array name="cities">
+        <item>Siem Reap</item>
+        <item>Phnom Penh</item>
+        <item>Kampong Charm</item>
+    </string-array>
+
+    <string name="currency_promt">Choose Currency</string>
+    <string-array name="currencies">
+        <item>Dollar</item>
+        <item>Riel</item>
+    </string-array>
+
+    <string name="duration_promt">Choose Currency</string>
+    <string-array name="duration">
+        <item>15 </item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+
+    <string name="sale_rent_promt">Choose Currency</string>
+    <string-array name="for_sale_rent">
+        <item>For Sale</item>
+        <item>For Rent</item>
+    </string-array>
+
+    <string-array name="service_items">
+        <item>Free Wifi</item>
+        <item>Parking Space Available</item>
+    </string-array>
+
+</resources>

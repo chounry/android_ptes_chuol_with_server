@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/m_coordinate"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgView_house"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/slide1" />
+
+            <TextView
+                android:id="@+id/for_sale_rent_tv"
+                android:background="@color/forRent"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="-70dp"
+                android:layout_marginTop="20dp"
+                android:paddingHorizontal="19dp"
+                android:paddingVertical="3dp"
+                android:rotation="-45"
+                android:shadowColor="#000"
+                android:shadowDx="0"
+                android:shadowDy="6"
+                android:shadowRadius="50"
+                android:text="For Sale"
+                android:textAlignment="center"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/house_save_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="#FFB818"
+                android:paddingHorizontal="15dp"
+                android:gravity="center_vertical"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:text="Save"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70dp"
+                android:background="@drawable/post_gradient_color"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/title_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Luxury House"
+                    android:textStyle="bold"
+                    android:textColor="#FFFF"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/price_home"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="$20000"
+                    android:textColor="#4AA9D3"
+                    android:textStyle="bold"
+                    android:textSize="20dp" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:stretchColumns="0,1,2">
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="Address"
+                            android:textColor="#D4D4D4" />
+
+                        <TextView
+                            android:id="@+id/address_home"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:inputType="textMultiLine"
+                            android:text="Toul Kork, Phnom 435908 349058 "
+                            android:textColor="#FFFF" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="Location"
+                            android:textColor="#D4D4D4" />
+
+                        <TextView
+                            android:id="@+id/location_home"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="Phnom Penh"
+                            android:textColor="#FFFF"/>
+                    </TableRow>
+
+                    <TableRow android:layout_height="9dp">
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.3"
+                            android:text="Type"
+                            android:textColor="#D4D4D4" />
+
+                        <TextView
+                            android:id="@+id/type_home"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="0.7"
+                            android:text="Villa"
+                            android:textColor="#FFFF" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+

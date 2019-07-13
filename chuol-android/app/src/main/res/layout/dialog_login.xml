@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingVertical="25dp"
+    android:background="#48C0E8"
+    tools:context=".MainActivity">
+
+    <!--<TextView-->
+        <!--android:id="@+id/welcome_tv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textAlignment="center"-->
+        <!--android:textSize="20sp"-->
+        <!--android:text="Welcome"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textColor="#FFFF"-->
+        <!--android:padding="10dp" />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:paddingHorizontal="30dp"
+        android:layout_marginBottom="35dp">
+        <ImageView
+            android:layout_width="140sp"
+            android:layout_height="140sp"
+            android:src="@drawable/app_logo"/>
+
+    </LinearLayout>
+    <ImageButton
+        android:clickable="true"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:background="#00FFFFFF"
+        android:src="@drawable/facebook" />
+
+    <TextView
+        android:id="@+id/login_sign_up_btn"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="Sign In/Sign Up Account"
+        android:textColor="#fff"
+        android:layout_gravity="center"/>
+    <!--<ImageView-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:src="@drawable/gmail" />-->
+
+</LinearLayout>

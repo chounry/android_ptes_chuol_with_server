@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/each_chat_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#f9f9f9"
+            android:paddingHorizontal="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:gravity="center_vertical"
+                        android:layout_weight="0.7"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:id="@+id/profile_image"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+
+                            android:src="@drawable/profile"
+                            app:civ_border_color="#00000000"
+                            app:civ_border_width="2dp" />
+
+
+                        <LinearLayout
+                            android:layout_width="110dp"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+
+                            android:layout_marginLeft="7dp">
+
+                            <TextView
+                                android:id="@+id/userName"
+                                android:singleLine="true"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textStyle="bold"
+                                android:text="Shimirtyertyertyert"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:singleLine="true"
+                                android:id="@+id/title_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Villa"
+                                android:textSize="13sp"/>
+
+                            <TextView
+                                android:singleLine="true"
+                                android:id="@+id/msg_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Hi"
+                                android:textSize="13sp"/>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:gravity="end"
+                            android:layout_weight="0.3"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/chatTime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:text="11:11"
+                                android:textSize="13sp"
+                                android:layout_marginTop="40dp"
+                                android:layout_marginRight="7dp"/>
+
+                            <ImageView
+                                android:id="@+id/imgViewProduct"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/house1"
+                                android:radius="5dp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

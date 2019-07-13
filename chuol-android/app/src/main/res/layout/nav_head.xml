@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    android:paddingBottom="50dp"
+    android:background="#48C0E8">
+
+    <LinearLayout
+        android:id="@+id/user_info_lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center_vertical|center_horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="94dp"
+            android:layout_height="94dp"
+            android:layout_marginTop="35dp"
+            android:src="@drawable/rick"
+            app:civ_border_color="#FF000000" />
+
+        <TextView
+            android:id="@+id/user_name_tv"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:text="MaVin"
+            android:textColor="#FFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:text="koung.mavin@gmail.com"
+            android:textColor="#FFFF"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/login_dialog_include"
+        layout="@layout/dialog_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
