@@ -7,7 +7,7 @@ An android app that show and post the information of the **HOUSE** or **ROOM** f
 **I . Server (Database-choul)**
  1. create a new **.env** file from the existing **.env.example**
  2. Create a **database** on the your WAMP or whatever you use 
- 3. config the 
+ 3. config these things in **.env** file
 	1. DB_DATABASE
 	2. DB_USERNAME
 	3. DB_PASSWORD
