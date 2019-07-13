@@ -18,10 +18,14 @@ An android app that show and post the information of the **HOUSE** or **ROOM** f
 	php artisan passport:install  // for passport AUTH Key
 	```
  5. Import **data/chuol.sql** to your database
- 6. Now your can run the server
+ 6. Copy foleder **estate_imgs & profile_imgs** in data to **Database-choul/storage/app/public**
+ 7. Run ``` php artisan storage:link  ```
+ 8. Now your can run the server
 	```
 	php artisan serve --host=your_computer_ip_address
 	```
+
+ 	
 
 
 **II . Android (chuol-android)**
